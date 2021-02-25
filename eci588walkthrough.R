@@ -136,7 +136,7 @@ fi_tweets <- fi %>%
 sample_n(fi_tweets, 10) %>%
   select(screen_name, text)
 
-# vignette("intro", package="rtweet")
+vignette("intro", package="rtweet")
 
 ################################################################################
 ### ✅ Comprehension Check: ###
